@@ -1,0 +1,14 @@
+# Ignore XAMPP/WAMP files
+/xampp/
+/wamp/
+/tmp/
+
+# Ignore OS/editor files
+.DS_Store
+.idea/
+*.swp
+*.bak
+
+# Ignore sensitive data
+.env
+config.php  # Wait! Should you really ignore this? See note below.
